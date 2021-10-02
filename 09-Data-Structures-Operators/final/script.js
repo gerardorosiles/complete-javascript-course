@@ -870,11 +870,11 @@ console.log(main, secondary);
 
 [main, secondary] = [secondary, main];
 console.log(main, secondary);
-
+*/
 // Receive 2 return values from a function
 const [starter, mainCourse] = restaurant.order(2, 0);
 console.log(starter, mainCourse);
-
+/*
 // Nested destructuring
 const nested = [2, 4, [5, 6]];
 // const [i, , j] = nested;
